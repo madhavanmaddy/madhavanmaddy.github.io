@@ -1,0 +1,54 @@
+# Site Settings
+title: "Tech Blog"
+description: "A technical blog covering software development, programming, and technology insights"
+author: "Madhavan Maddy"
+email: "" # Optional: your email
+url: "https://madhavanmaddy.github.io" # Your GitHub Pages URL
+baseurl: "" # Leave empty if using a custom domain or username.github.io
+
+# Build Settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown Processor
+markdown: kramdown
+highlighter: rouge
+
+# Kramdown Configuration
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Permalink Structure (tech-friendly)
+permalink: /:year/:month/:day/:title/
+
+# Minima Theme Settings
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    github: madhavanmaddy
+    # Add more social links as needed:
+    # twitter: username
+    # linkedin: username
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - README.md
+  - .github/
+
+
+
