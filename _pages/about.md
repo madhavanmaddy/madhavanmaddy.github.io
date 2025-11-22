@@ -34,7 +34,4 @@ Feel free to connect with me on GitHub or reach out if you have questions, sugge
 
 ---
 
-*This blog is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).*
-
-
-
+*This blog is built with [Jekyll](https://jekyllrb.com/) and the [Reverie](https://github.com/amitmerchant1990/reverie) theme, hosted on [GitHub Pages](https://pages.github.com/).*
